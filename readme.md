@@ -4,11 +4,8 @@ https://dev.mangalmaya.com.np
 # Live URL: 
 https://mangalmaya.com.np
 
-# SSOMAI
-
 # Project Inspiration
-https://github.com/
-
+https://github.com/Expensify/App
 
 # Demo Account credential
 Email: 
