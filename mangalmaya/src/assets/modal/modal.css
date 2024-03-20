@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    background-color: #ffffff;
+    height: 900px;
+    background-repeat: repeat;
+
+ } 
+
+.Main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Modal-container {
+    position: absolute;
+    top: 92px;
+    left: 142px;
+    /* background: pink; */
+    height: 228px;
+    width: 566px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+#title{
+    width: 167px;
+    height: 84px;
+    top: 92px;
+    left: 142px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Miriam Libre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+}
+
+#content{
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: start;
+}
+
+.second-modal-container{
+    position: absolute;
+    top: 450px;
+    left: 142px;
+    /* background: pink; */
+    height: 362px;
+    width: 480px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    box-shadow: 0px 0px 24px #E2E0E7 ;
+    border-radius: 4px;
+}
+
+.close-icon{
+    position: relative;
+    Width:24px; 
+    Height: 24px;
+    top:20px;
+    left: 432px;
+}
+
+#second-container-title{
+    position: relative;
+    top: 40px;
+    left: 32px;
+    width: 133px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Miriam Libre", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+#second-container-content{
+    position: relative;
+    top: 50px;
+    left: 32px;
+    width: 416px;
+    height: 175px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24.5px;
+    text-align: start;
+    
+}
+
+.Buttons{
+    position: absolute;
+    top: 320px;
+    left: 276px;
+    width: Hug (172px);
+    height: hug(40px);
+}
+
+#Cancel-button{
+    align-items: center;
+    margin-right: 8px;
+    background: #ffffff;
+    color: #6F3FF5;
+    border-color: #6F3FF5;
+}
+
+#Accept-button{
+    align-items: center;
+    margin-left: 8px;
+    background: #6F3FF5;
+    border-color: #6F3FF5;
+    color: #ffffff;
+}
+
+.last-P{
+    position: relative;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    width: 329px;
+    top: 311px;
+    left: 220px;
+    height: 32px;
+    color: black;
+}
+
+
+
+
+
+
