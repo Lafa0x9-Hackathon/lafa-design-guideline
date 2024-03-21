@@ -1,12 +1,10 @@
-import './App.css'
-
+import Accordion from "./page/accordion/Accordion"
 function App() {
-  
 
   return (
-    <>
-     
-    </>
+    <div>
+      <Accordion />
+    </div>
   )
 }
 
