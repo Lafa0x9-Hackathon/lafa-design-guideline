@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    background-color: #0E0333;
+    /* width: 1499px; */
+    height: 1448px;
+
+
+}
+
+.Grant-container{
+    width: 782px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    height: 1368px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+/* .Grant-container p{
+    position: relative;
+    width: 156px;
+    height: 48px;
+    top: 64px;
+    left: 313px;
+    color: black;
+} */
+
+#title{
+    color: black;
+    position: relative;
+    top: 64px;
+    left: 313px; 
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    font-family: "Miriam Libre", sans-serif;
+}
+
+.Form{
+    position: relative;
+    top: 70px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 20px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: start;
+}
+
+/* input{
+    background: #ffffff;
+    height: 40px;
+    width: 702px;
+    border-radius: 1px;
+    padding: 0px 16px 0px 16px;
+    border: 1px;
+     opacity: 1; 
+} */
+
+.title{
+    background: #ffffff;
+    border-radius: 4px;
+    height: 40px;
+    width: 660px;
+    border: 1px solid #E2E0E7;
+    padding: 0px 16px 0px 16px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.description{
+    border-radius: 4px;
+    border: 1px solid #E2E0E7;
+    padding: 16px;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.Form-Buttons{
+    position: relative;
+    top: 100px;
+    left: 445px;
+    display: flex;
+}
+
+#Cancel-btn{
+    align-items: center;
+    margin-right: 8px;
+    color: #6F3FF5;
+    border-color: #6F3FF5;
+    background: #ffffff;
+    width:138px;
+    height: 40px
+}
+
+#Save-btn{
+    align-items: center;
+    margin-left: 8px;
+    background: #6F3FF5;
+    border-color: #6F3FF5;
+    color: #ffffff;
+    width: 138px;
+    height: 40px;
+}
+
+.Warning-container{
+    position: relative;
+    background: #FDDEE5;
+    opacity: 50%;
+    height: 204px;
+    width: 702px;
+    top: 140px;
+    left:40px;
+    border-radius: 4px;
+    /* border-color: #F3587D; */
+    border: 1px solid #F3587D;
+    text-align: start;
+}
+
+#cancel-grant-head{
+    position: relative;
+    height: 21px;
+    width: 87px;
+    top: 24px;
+    left:24px;
+    color: #D03E63;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#Cancel-grant-content{
+    position: relative;
+    width: 648px;
+    height: 75px;
+    top: 43px;
+    left: 24px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 14px;
+    line-height: 24.5px;
+}
+
+.btn{
+    position: relative;
+    top: 40px;
+    left: 540px;
+    align-items: center;
+    color: #F3587D;
+    border: 1px solid #F3587D;
+    background: #ffffff;
+    width: 138px;
+    height: 40px;
+    background: #FDDEE5;
+    text-align: center;
+}
