@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.alerts-main-container{
+    width: 1440px;
+    position: relative;
+    /* top: 60px; */
+    left: 150px;
+    background-color: #ffffff;
+
+}
+
+.Alert{
+    height: 228px;
+    width: 566px;
+}
+
+.Alert-head{
+    height: 84px;
+    width: 162px;
+    font-family: "Miriam Libre", sans-serif;
+    font-size: 56px;
+    line-height: 84px;
+    font-weight:400;
+}
+
+.Alert-content{
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    color:#0E0333 ;
+} 
+
+.Alert-box-container{
+    position: relative;
+    top: 30px;
+    height: 392px;
+    width: 1196px;
+    border:1px dashed #7B61FF;
+    border-radius: 4px;
+}
+
+.alerts{
+    position: relative;
+    top: 10px;
+    height: 64px;
+    width:1156px;
+    border-radius: 4px;
+    margin: 20px;
+    border: 1px solid ;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-alert-1{
+    display: flex;
+}
+.inner-alert-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-alert-1 img{
+    position: relative;
+    left: 16px;
+    height: 24px;
+    width: 24px;
+    color: #5932C4;
+}
+
+.inner-alert-1 p{
+    margin-left: 16px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.inner-alert-2 img{
+    position: relative;
+    right: 16px;
+    height: 24px;
+    width: 24px;
+    color: #5932C4;
+}
+
+.inner-alert-2 p{
+    margin-right: 26px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#alert-1{
+    border: 1px solid #6F3FF5;
+    background: #F0EBFF;
+}
+#alert-2{
+    border: 1px solid #FFCC00;
+    background: #FFF8DB;
+}
+#alert-3{
+    border: 1px solid #F3587D;
+    background: #FDDEE5;
+}
+#alert-4{
+    border: 1px solid #02E2AC;
+    background: #E6FFF9;
+}

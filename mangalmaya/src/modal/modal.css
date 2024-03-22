@@ -72,7 +72,7 @@
 
 #second-container-title{
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 32px;
     width: 133px;
     height: 36px;
@@ -87,7 +87,7 @@
 
 #second-container-content{
     position: relative;
-    top: 50px;
+    top: 40px;
     left: 32px;
     width: 416px;
     height: 175px;
@@ -105,8 +105,6 @@
     position: absolute;
     top: 320px;
     left: 276px;
-    width: Hug (172px);
-    height: hug(40px);
 }
 
 #Cancel-button{
@@ -115,6 +113,10 @@
     background: #ffffff;
     color: #6F3FF5;
     border-color: #6F3FF5;
+    height: 40px;
+    width: 77px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 #Accept-button{
@@ -123,6 +125,10 @@
     background: #6F3FF5;
     border-color: #6F3FF5;
     color: #ffffff;
+    height: 40px;
+    width: 77px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .last-P{
@@ -132,8 +138,8 @@
     font-size: 36px;
     line-height: 32px;
     width: 329px;
-    top: 311px;
-    left: 220px;
+    top: 300px;
+    left: 790px;
     height: 32px;
     color: black;
 }

@@ -1,5 +1,5 @@
-import './App.css'
-import Grant from './modal/grant';
+import Alerts from './Alerts/alerts'
+import Grant from './grant/grant'
 import Modal from './modal/modal'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -11,6 +11,10 @@ const router = createBrowserRouter([
   {
     path: "/grant",
     element: <Grant/>
+  },
+  {
+    path: "/alert",
+    element: <Alerts/>
   }
 ])
 
