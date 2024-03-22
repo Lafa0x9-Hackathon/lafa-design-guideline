@@ -1,9 +1,12 @@
 import Accordion from "./page/accordion/Accordion"
+import Typography from "./page/typography/Typography"
+import './app.scss'
 function App() {
 
   return (
-    <div>
+    <div className="app">
       <Accordion />
+      <Typography />
     </div>
   )
 }
