@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import './accordion.scss'
 import illustration from '../../assets/image/illustration-a.png'
-import Content from '../../components/accordion/Content';
-import Heading from '../../components/accordion/Heading';
-
+import AccordionContent from '../../components/accordion/AccordionContent';
 function Accordion() {
 
     const [pop, setPop] = useState([]);
@@ -14,18 +12,9 @@ function Accordion() {
                 <img src={illustration} alt='illustration' />
             </div>
             <div className='w-1/2 flex flex-col ps-4 '>
-                <div >
-                    <Heading setPop={setPop} headingText="Earn in Bounties" name="bounty" pop={pop} />
-                    <Content pop={pop} name="bounty" />
-                </div>
-                <div >
-                    <Heading setPop={setPop} headingText="Earn through Hackathons" name="hackathon" pop={pop} />
-                    <Content pop={pop} name="hackathon" />
-                </div>
-                <div >
-                    <Heading setPop={setPop} headingText="Earn through grant funding" name="grant" pop={pop} />
-                    <Content pop={pop} name="grant" />
-                </div>
+                <AccordionContent setPop={setPop} headingText="Earn in Bounties" name="bounty" pop={pop} />
+                <AccordionContent setPop={setPop} headingText="Earn through Hackathons" name="hackathon" pop={pop} />
+                <AccordionContent setPop={setPop} headingText="Earn through grant funding" name="grant" pop={pop} />
             </div>
         </div >
     )
