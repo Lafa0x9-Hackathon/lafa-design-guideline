@@ -1,6 +1,8 @@
 function MaticSmall() {
     return (
-        <div>MaticSmall</div>
+        <div>
+
+        </div>
     )
 }
 
