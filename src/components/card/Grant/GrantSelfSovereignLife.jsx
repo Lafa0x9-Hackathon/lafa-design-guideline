@@ -3,7 +3,7 @@ import Vector from '../../../assets/image/Vector.png'
 import Ellipse from '../../../assets/image/Ellipse 165.png'
 function GrantSelfSovereignLife() {
     return (
-        <div className="grant w-80" >
+        <div className="grant-item w-80" >
             <div className="grant-img">
                 <img src={Frame14445} alt="bankless" />
             </div>

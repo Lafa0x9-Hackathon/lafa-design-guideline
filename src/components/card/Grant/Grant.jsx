@@ -3,7 +3,7 @@ import GrantSelfSovereignLife from "./GrantSelfSovereignLife"
 
 function Grant() {
     return (
-        <div className="flex ">
+        <div className="grant flex ">
             <GrantBankless />
             <GrantSelfSovereignLife />
         </div>

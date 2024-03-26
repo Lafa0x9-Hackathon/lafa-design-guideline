@@ -3,7 +3,7 @@ import iconInfo from '../../../assets/image/icon-info.png';
 import image65 from '../../../assets/image/image 65.png'
 function GrantBankless() {
     return (
-        <div className="grant bankless" >
+        <div className="grant-item bankless me-5" >
             <div className="grant-img">
                 <img src={Rectangle36} alt="bankless" />
             </div>
