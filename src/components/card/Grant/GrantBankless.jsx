@@ -1,6 +1,6 @@
-import Rectangle36 from '../../assets/image/Rectangle 36.png'
-import iconInfo from '../../assets/image/icon-info.png';
-import image65 from '../../assets/image/image 65.png'
+import Rectangle36 from '../../../assets/image/Rectangle 36.png'
+import iconInfo from '../../../assets/image/icon-info.png';
+import image65 from '../../../assets/image/image 65.png'
 function GrantBankless() {
     return (
         <div className="grant bankless" >
@@ -29,8 +29,8 @@ function GrantBankless() {
                     Est. Matching <span className='text-teal-500 font-semibold' >+$45,323</span>
                 </div>
                 <div className='div-button' >
-                    <button ><img src={iconInfo} className='' /></button>
-                    <button>Add to Cart</button>
+                    <button className='px-2' ><img src={iconInfo} className='my-2 mx-2' /></button>
+                    <button className='ms-3' >Add to Cart</button>
                 </div>
             </div>
         </div>

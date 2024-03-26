@@ -1,5 +1,5 @@
 .accordion {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     padding: 8rem 15rem;
     font-family: Libre Franklin;
@@ -10,6 +10,7 @@
     position: relative;
 
     >div:first-child {
+
         >img {
             width: 70%;
             height: 90%;
