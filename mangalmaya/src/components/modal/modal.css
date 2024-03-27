@@ -50,7 +50,7 @@
 
 .second-modal-container{
     position: absolute;
-    top: 450px;
+    top: 400px;
     left: 142px;
     height: 362px;
     width: 480px;
@@ -138,7 +138,7 @@
     font-size: 36px;
     line-height: 32px;
     width: 329px;
-    top: 750px;
+    top: 700px;
     left: 790px;
     height: 32px;
     color: black;

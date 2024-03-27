@@ -1,4 +1,5 @@
 import './modal.css'
+import cross_icon from './icon-close.png'
 
 function Modal() {
     return (
@@ -8,7 +9,7 @@ function Modal() {
                 <p id='content'>Modals are a disruptive way of delivering important information, asking your user to make a choice or helping them achieve multiple tasks.</p>
             </div>
             <div className='second-modal-container'>
-                <img src="./icon-close.png" alt="close-icon" className='close-icon'/>
+                <img src={cross_icon} alt="close-icon" className='close-icon'/>
                 <p id='second-container-title'>Modal Title</p>
                 <p id='second-container-content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /><br />Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                 </p>     
