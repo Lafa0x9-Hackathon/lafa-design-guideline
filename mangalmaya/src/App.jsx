@@ -1,7 +1,8 @@
-import Alerts from './Alerts/alerts'
-import Grant from './grant/grant'
-import Modal from './modal/modal'
-import Filter from './filter/filter'
+import Alerts from './components/Alerts/alerts'
+import Grant from './components/grant/grant'
+import Modal from './components/modal/modal'
+import Filter from './components/filter/filter'
+import Icons from './components/Icons/icons'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/filter",
     element: <Filter/>
+  },
+  {
+    path: "/icons",
+    element: <Icons/>
   }
 ])
 

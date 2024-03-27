@@ -1,0 +1,281 @@
+*{
+    align-content: start;
+    columns: black;
+}
+
+.filter-container{
+    position: relative;
+}
+
+/* .modal{
+    transform: scale(0);
+    transition: 70ms ease-in-out;
+}
+
+.modal.active{
+    transform: scale(1);
+    transition: 70ms ease-in-out;
+} */
+
+.filter-btn{
+    display: flex;
+    flex-direction: column;
+    height: 36px;
+}
+
+.filter-btn button{
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#btn-1{
+    position: relative;
+    margin-top:16px;
+    left:16px;
+    background: #ffffff;
+    border: 1px solid #E2E0E7;
+    border-radius: 100px;
+    width: 71px;
+    padding: 4px 16px 4px 16px;
+    cursor: pointer;
+}
+#btn-2{
+    position: relative;
+    margin-top:16px;
+    left:16px;
+    border: 1px solid #E2E0E7;
+    border-radius: 100px;
+    width: 71px; 
+    padding: 4px 16px 4px 16px;
+    border: #0E0333;
+    background: #0E0333;
+    color: #ffffff;
+    cursor: pointer;
+}
+#btn-3{
+    position: relative;
+    margin-top: 16px;
+    left:16px;
+    border: 1px solid #E2E0E7;
+    border-radius: 100px;
+    width: 71px;
+    padding: 4px 16px 4px 16px;
+    border: #757087;
+    background: #757087;
+    color: #ffffff;
+    cursor: pointer;
+}
+#btn-4{
+    position: relative;
+    margin-top: 16px;
+    left:16px;
+    border: 1px solid #E2E0E7;
+    border-radius: 100px;
+    width: 95px;
+    padding: 4px 16px 4px 16px;
+    border: #0E0333;
+    background: #0E0333;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+.pop-up-1{
+    position: absolute;
+    left: 150px;
+    height:272px;
+    width: 240px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 24px #E2E0E7;
+    border-radius: 4px;
+}
+
+.pop-up-items{
+    position: relative;
+    width: 205px;
+    height: 165px;
+    top: 16px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #E2E0E7;
+}
+
+.pop-up-items div{
+    margin: 5px;
+}
+
+.pop-up-items label{
+    position: relative;
+    height: 28px;
+    width: 70px;
+    margin-left: 10px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.pop-up-items input{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    accent-color: #6F3FF5;
+    border:1px solid #E2E0E7;
+    
+}
+
+.pop-up-items input:checked {
+    border: 1px solid #6F3FF5;
+}
+
+.buttons-1{
+    position: relative;
+    top: 40px;
+    left:20px;
+    height: 32px;
+    width: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-1 button{
+    height: 32px;
+    width: 52px;
+}
+
+#Clear-button{
+    background-color: #ffffff;
+    color: #6F3FF5;
+    border: none;
+    cursor: pointer;
+}
+
+#Save-button{
+    color: #ffffff;
+    background-color: #6F3FF5;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.pop-up-2 {
+    position: relative;
+    top: 300px;
+    left: 150px
+}
+
+
+
+.pop-up-2{
+    /* align-content: center; */
+    position: relative;
+    top:290px;
+    left: 150px;
+    height: 500px;
+    width: 240px;
+    box-shadow: 0px 0px 24px #E2E0E7;
+}
+
+.Search{
+    position: relative;
+    top: 16px;
+    left: 23px;
+    height:36px;
+    width: 192px;
+    border-radius: 4px;
+    border: 1px solid #E2E0E7;
+    display: flex;
+    align-items: center
+    /* justify-content: space-between; */
+}
+
+.Search img{
+    margin-left: 7px;
+    height: 12px;
+    width: 12px;
+
+}
+
+.Search p{
+    margin-left: 10px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 14px;
+    line-height: 24.5px;
+    font-weight: 400;
+    color: #A7A2B6;
+}
+
+
+.search-items{
+    position: relative;
+    height: 320px;
+    width: 205px;
+    top: 40px;
+    position: relative;
+    left: 16px;
+    flex-direction: column;
+    border-bottom: 2px solid #E2E0E7;
+    display: flex;
+}
+
+.search-items div {
+    margin: 5px;
+}
+
+.search-items label {
+    position: relative;
+    height: 28px;
+    width: 70px;
+    margin-left: 10px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.search-items input {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    accent-color: #6F3FF5;
+    border: 1px solid #E2E0E7;
+
+}
+
+.search-items input:checked {
+    border: 1px solid #6F3FF5;
+}
+
+
+
+
+.buttons-2{
+    position: relative;
+    top: 60px;
+    left: 20px;
+    height: 32px;
+    width: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-2 button {
+    height: 32px;
+    width: 52px;
+}
+
+
+
+
+
+
+
+
