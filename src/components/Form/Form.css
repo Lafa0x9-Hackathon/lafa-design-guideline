@@ -3,15 +3,6 @@
     margin: 0px;
 }
 
-@font-face {
-
-    font-family: "Libre-Franklin";
-    src: local("LibreFranklin-VariableFont_wght"),
-        url('/Fonts/LibreFranklin-VariableFont_wght.ttf') format("truetype");
-    font-family: "MiriamLibre-Bold";
-    src: local("MiriamLibre-Bold"),
-        url('/src/Fonts/MiriamLibre-Bold.ttf') format("truetype");
-}
 
 input::placeholder {
     font-size: 13px;

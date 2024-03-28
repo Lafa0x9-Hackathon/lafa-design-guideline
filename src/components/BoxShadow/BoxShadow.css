@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#body {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 43%;
+    margin-left: 80px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#box {
+    height: 120px;
+    width: 120px;
+    /* border: 1px solid gray; */
+    /* box-shadow: 0px 0px 8px #E2E0E7; */
+}

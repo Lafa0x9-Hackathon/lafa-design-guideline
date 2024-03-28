@@ -1,6 +1,7 @@
 import "./App.css";
-import FirstPage from "./components/FirstPage.jsx";
-import Form from "./components/Form.jsx";
+import FirstPage from "./components/Form/FirstPage.jsx";
+import Form from "./components/Form/Form.jsx";
+import Shadow from "./components/BoxShadow/Shadow.jsx";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<FirstPage />} />
         <Route path="/form" element={<Form />} />
+        <Route path="/shadow" element={<Shadow />} />
       </Routes>
     </BrowserRouter>
   );
