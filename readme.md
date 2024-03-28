@@ -16,7 +16,7 @@ Email:
 password: 
 
 # UI/UX Development Link:
-https://www.figma.com/file/JTzaUKVxnGEmlaD3L8KsSm/Gitcoin-Design-System?type=design&node-id=14-3&mode=design&t=nbAb0OgXkoeks9WG-0
+https://www.figma.com/file/VDHFMjwVSiysyTWf1QB7UA/Lafa-Design-System?type=design&node-id=858-5723&mode=design&t=loqzjY8igQOrZCZD-0
 
 
 
