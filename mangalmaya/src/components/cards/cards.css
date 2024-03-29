@@ -1,0 +1,90 @@
+.main-container{
+    /* background-color: pink; */
+    position: absolute;
+    width: 96%;
+    height: 100%;
+    top: 5%;
+    left: 2.5%;
+    margin-right: 10%;
+}
+
+.cards-title-container{
+    max-width: 566px;
+    min-height: 84px;
+}
+
+.card-title{
+    font-family: "Miriam Libre", sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 84px;
+}
+
+.card-content{
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.cards-title-container2{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.cards-title-container2 div{
+    border: 2px solid #E2E0E7;
+    /* margin: 10px; */
+
+}
+
+#card1{
+    height: 355px;
+    width: 360px;
+
+}
+
+#card2{
+ 
+    height:243px;
+    width: 355px;
+}
+
+#card3{
+    height: 541px;
+    width: 355px;
+}
+
+.card-title{
+    margin: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600px;
+}
+
+.card-content{
+    margin: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    line-height: 28px;        
+    font-weight: 400px;
+}
+
+.blank{
+    height: 264px;
+    width: 353px;
+    background: #E2E0E7;
+}
+
+
+
+
+
+
+

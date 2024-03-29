@@ -3,6 +3,7 @@ import Grant from './components/grant/grant'
 import Modal from './components/modal/modal'
 import Filter from './components/filter/filter'
 import Icons from './components/Icons/icons'
+import Cards from './components/cards/cards'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -25,7 +26,11 @@ const router = createBrowserRouter([
   {
     path: "/icons",
     element: <Icons/>
-  }
+  },
+  {
+    path: "/cards",
+    element: <Cards/>
+  },
 ])
 
 function App() {
