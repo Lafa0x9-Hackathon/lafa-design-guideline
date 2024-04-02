@@ -4,6 +4,7 @@ import Modal from './components/modal/modal'
 import Filter from './components/filter/filter'
 import Icons from './components/Icons/icons'
 import Cards from './components/cards/cards'
+import Navbar from './components/DesktopNav/navbar'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/cards",
     element: <Cards/>
+  },
+  {
+    path: "/nav",
+    element: <Navbar/>
   },
 ])
 

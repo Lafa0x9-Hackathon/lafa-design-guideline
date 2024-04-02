@@ -15,7 +15,7 @@ function Filter() {
                 <button onClick={toggleModal} type="button" id="btn-1">Filter</button>
                 <button onClick={toggleModal} type="button" id="btn-2">Filter</button>
                 <button onClick={toggleModal} type="button" id="btn-3">Filter</button>
-                <button onClick={toggleModal} type="button" id="btn-4">Filter - 1</button>
+                <button onClick={toggleodal} type="button" id="btn-4">Filter - 1</button>
             </div>
 
             { modal && (<div className='modal'>
