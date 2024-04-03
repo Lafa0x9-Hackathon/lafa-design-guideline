@@ -1,11 +1,11 @@
-import Accordion from "./page/accordion/Accordion"
-function App() {
+import Progress from "./components/Progress";
 
+const App = () => {
   return (
-    <div>
-      <Accordion />
-    </div>
-  )
-}
+    <main className="flex items-center justify-center h-screen">
+      <Progress value={40}/>
+    </main>
+  );
+};
 
-export default App
+export default App;
