@@ -5,12 +5,15 @@ import Filter from './components/filter/filter'
 import Icons from './components/Icons/icons'
 import Cards from './components/cards/cards'
 import Navbar from './components/DesktopNav/navbar'
+import FooterFunctionLight from './components/footer/footerLight'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import FooterDark from './components/darkFooter/footerDark'
 
 const router = createBrowserRouter([
   {
     path: "/modal",
-    element: <Modal/>,
+    element: <Modal />,
+    errorElement: <div>404 Not Found</div>
   },
   {
     path: "/grant",
@@ -36,11 +39,17 @@ const router = createBrowserRouter([
     path: "/nav",
     element: <Navbar/>
   },
+  {
+    path: '/footerPageLight',
+    element: <FooterFunctionLight/>
+  },
+  {
+    path: '/footerPageDark',
+    element: <FooterDark/>
+  }
 ])
 
-function App() {
-
-    
+function App() {  
   return (
     <RouterProvider router={router}/>
   )
