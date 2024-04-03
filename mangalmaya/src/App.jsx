@@ -8,6 +8,7 @@ import Navbar from './components/DesktopNav/navbar'
 import FooterFunctionLight from './components/footer/footerLight'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import FooterDark from './components/darkFooter/footerDark'
+import Progress from './components/Progress/progress'
 
 const router = createBrowserRouter([
   {
@@ -46,7 +47,11 @@ const router = createBrowserRouter([
   {
     path: '/footerPageDark',
     element: <FooterDark/>
-  }
+  },
+  {
+    path: '/progress',
+    element: <Progress/>
+  },
 ])
 
 function App() {  
