@@ -38,7 +38,7 @@ const Tooltip = ({ children, content }) => {
             animate="show"
             exit="hidden"
             className={
-              "absolute top-[130%] left-1/2 -translate-x-1/2 rounded-[4px] bg-[#0E0333]"
+              "absolute top-[calc(100%+10px)] left-1/2 -translate-x-1/2 rounded-[4px] bg-[#0E0333]"
             }
           >
             <div className="absolute top-[0.5px] left-1/2 -translate-x-1/2 -translate-y-full triangle" />
