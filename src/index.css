@@ -11,12 +11,5 @@ body {
 }
 
 body {
-  @apply bg-[#fff];
-}
-
-.triangle {
-  width: 12px;
-  aspect-ratio: 1 / cos(60deg);
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
-  background: #0e0333;
+  @apply bg-[#fff] font-Libre-Franklin;
 }
