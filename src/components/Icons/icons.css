@@ -1,0 +1,17 @@
+.icon-bar{
+    display: flex;
+    gap: 30px;
+    /* margin-inline:auto; */
+    /* background-color: aqua; */
+    max-width:36%;
+}
+
+img{
+    height: 48px;
+    width: 48px;
+}
+
+.github-icon img{
+    height: 24px;
+    width: 24px;
+}
