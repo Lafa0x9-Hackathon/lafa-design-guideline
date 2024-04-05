@@ -1,8 +1,8 @@
 # Staging Link: 
-https://dev.mangalmaya.com.np
+https://design-guideline.mangalmaya.com.np
 
 # Live URL: 
-https://mangalmaya.com.np
+Coming Soon
 
 # Project Code Inspiration
 https://github.com/Expensify/App
@@ -15,7 +15,7 @@ https://www.behance.net/gallery/148135313/Travel-App-Design-UI-Design?tracking_s
 Email: 
 password: 
 
-# UI/UX Development Link:
+# UI/UX Development Lafa Design System Link:
 https://www.figma.com/file/VDHFMjwVSiysyTWf1QB7UA/Lafa-Design-System?type=design&node-id=0-1&mode=design&t=UwjbmtSWbHvNAhgu-0
 
 # Mangalmaya UI/UX Development Link:
