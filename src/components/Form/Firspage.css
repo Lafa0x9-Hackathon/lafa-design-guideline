@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainbody {
+    width: 215vh;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* border: 2px solid pink; */
+    /* align-items: center; */
+}
+
+#body1 {
+    /* border: 1px solid purple; */
+    width: 35%;
+    height: 35%;
+    margin-left: 50px;
+    margin-top: 15px;
+
+
+}
+
+p {
+    font-family: "Libre-Franklin";
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+h1 {
+    font: "MiriamLibre-Bold";
+    font-size: 50px;
+
+}
+
+#body2 {
+    /* border: 1px solid yellow; */
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sub1 {
+    border: 3px dashed purple;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+}
+
+#sub2 {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 40%;
+    justify-content: space-around;
+    margin-right: 300px;
+    align-items: center;
+
+}
+
+.input {
+    width: 460px;
+    border: 2px solid rgb(187, 187, 187);
+    padding: 13px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.input:hover {
+    background-color: blanchedalmond;
+    border: 1px solid purple;
+}
+
+textarea {
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+textarea:hover {
+    background-color: blanchedalmond;
+}
+
+
+select {
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    cursor: pointer;
+}
