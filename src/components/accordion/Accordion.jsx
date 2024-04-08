@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './accordion.scss'
-import illustration from '../../assets/image/illustration-a.png'
-import Content from '../../components/accordion/Content';
-import Heading from '../../components/accordion/Heading';
+import illustration from '../assets/image/illustration-a.png'
+import Content from '../../components/accordions/Content'
+import Heading from '../../components/accordions/Heading';
 
 function Accordion() {
 
@@ -31,4 +31,4 @@ function Accordion() {
     )
 }
 
-export default Accordion
+export default Accordion;

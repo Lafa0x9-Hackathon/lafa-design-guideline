@@ -9,7 +9,7 @@ import Navbar from './components/DesktopNav/navbar'
 import FooterFunctionLight from './components/footer/footerLight'
 import FooterDark from './components/darkFooter/footerDark'
 import Progress from './components/Progress/progress'
-import Accordion from "./components/Accordion"
+import Accordion from './components/accordion/Accordion'
 
 
 const router = createBrowserRouter([
