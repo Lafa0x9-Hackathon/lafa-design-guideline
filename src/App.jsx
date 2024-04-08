@@ -20,35 +20,46 @@ const router = createBrowserRouter([
   },
   {
     path: "/grant",
-    element: <Grant/>
+    element: <Grant />,
+    errorElement: <div>404 Not Found</div>
+    
   },
   {
     path: "/alert",
-    element: <Alerts/>
+    element: <Alerts />,
+    errorElement: <div>404 Not Found</div>
+    
   },
   {
     path: "/filter",
-    element: <Filter/>
+    element: <Filter />,
+    errorElement: <div>404 Not Found</div>
   },
   {
     path: "/icons",
-    element: <Icons/>
+    element: <Icons />,
+    errorElement: <div>404 Not Found</div>
+    
   },
   {
     path: "/cards",
-    element: <Cards/>
+    element: <Cards />,
+    errorElement: <div>404 Not Found</div>
   },
   {
     path: "/nav",
-    element: <Navbar/>
+    element: <Navbar />,
+    errorElement: <div>404 Not Found</div>
   },
   {
     path: '/footerPageLight',
-    element: <FooterFunctionLight/>
+    element: <FooterFunctionLight />,
+    errorElement: <div>404 Not Found</div>
   },
   {
     path: '/footerPageDark',
-    element: <FooterDark/>
+    element: <FooterDark />,
+    errorElement: <div>404 Not Found</div>
   },
   {
     path: '/progress',
@@ -66,4 +77,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
