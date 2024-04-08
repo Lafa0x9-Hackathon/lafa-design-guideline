@@ -1,4 +1,3 @@
-import React from "react";
 import "./Firspage.css";
 function FirstPage() {
   return (

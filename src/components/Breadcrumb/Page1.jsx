@@ -1,5 +1,3 @@
-import React from "react";
-import Breadcrumb from "./Breadcrumb.jsx";
 import "./Page1.css";
 
 const Page1 = () => {
