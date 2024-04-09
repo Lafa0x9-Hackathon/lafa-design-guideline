@@ -65,7 +65,6 @@ const router = createBrowserRouter([
     path: "/grant",
     element: <Grant />,
     errorElement: <div>404 Not Found</div>
-    
   },
   {
     path: "/alert",
