@@ -221,6 +221,43 @@
         height: 100vh;
         width: 100%;
         scroll-snap-align: start;
+        padding: 1rem;
+
+        >.matic {
+            color: #757087;
+
+            >.image-container {
+                >img {
+                    background-size: cover;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            >.content {
+                >h5 {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+
+                >p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin: 1rem 0;
+                }
+            }
+        }
+
+        >.matic-large {
+            width: 1120px;
+            height: 548px;
+
+            >.image-container {
+                width: 100%;
+                height: 373.33px;
+            }
+        }
+
+
     }
 
 
