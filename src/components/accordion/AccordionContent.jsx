@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion'
+import PropTypes from 'prop-types';
+
 function AccordionContent({ setPop, headingText, name, pop }) {
     const isTrue = pop.includes(name);
     const yPosition = isTrue ? 0 : -50;
@@ -26,5 +28,12 @@ function AccordionContent({ setPop, headingText, name, pop }) {
         </div>
     )
 }
+
+AccordionContent.propTypes = {
+    setPop: PropTypes.func.isRequired, 
+    headingText: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    pop: PropTypes.array.isRequired
+};
 
 export default AccordionContent

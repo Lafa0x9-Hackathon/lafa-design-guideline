@@ -4,8 +4,6 @@ import './app.scss'
 import Card from "./page/card/Card"
 
 function App() {
-
-
   return (
     <div className="app flex flex-col">
       <Card />
