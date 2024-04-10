@@ -1,5 +1,5 @@
-import HorizontalFigure from '../../../assets/image/HorizontalFigure.png'
-import Ellipse4 from '../../../assets/image/Ellipse 4.png'
+import HorizontalFigure from '../../assets/image/HorizontalFigure.png'
+import Ellipse4 from '../../assets/image/Ellipse 4.png'
 function HorizontalPolkadot() {
     return (
         <div className="polkadot horizontal-polkadot me-4 ">

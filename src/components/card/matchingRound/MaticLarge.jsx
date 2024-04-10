@@ -1,4 +1,4 @@
-import MaticLargePhoto from '../../../assets/image/MaticLarge.png'
+import MaticLargePhoto from '../../../components/assets/image/MaticLarge.png'
 function MaticLarge() {
     return (
         <div className="matic matic-vertical" >

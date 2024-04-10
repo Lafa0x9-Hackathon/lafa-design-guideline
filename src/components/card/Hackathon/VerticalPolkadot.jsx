@@ -1,5 +1,6 @@
-import Ellipse4 from '../../../assets/image/Ellipse 4.png'
-import VerticalFigure from '../../../assets/image/VerticalFigure.png'
+import Ellipse4 from '../../assets/image/Ellipse 4.png'
+import VerticalFigure from '../../assets/image/VerticalFigure.png'
+
 function VerticalPolkadot() {
     return (
         <div className="polkadot vertical-polkadot ">

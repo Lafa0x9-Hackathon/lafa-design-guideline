@@ -1,6 +1,7 @@
-import Frame14445 from '../../../assets/image/Frame 14445.png'
-import Vector from '../../../assets/image/Vector.png'
-import Ellipse from '../../../assets/image/Ellipse 165.png'
+// import Frame14445 from '../../../assets/image/Frame 14445.png'
+import Frame14445 from '../../assets/image/Frame 14445.png'
+import Vector from '../../assets/image/Vector.png'
+import Ellipse from '../../assets/image/Ellipse 165.png'
 function GrantSelfSovereignLife() {
     return (
         <div className="grant-item w-80" >

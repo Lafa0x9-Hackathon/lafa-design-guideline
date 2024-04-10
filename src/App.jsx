@@ -15,7 +15,6 @@ import Navbar from './components/DesktopNav/navbar'
 import FooterFunctionLight from './components/footer/footerLight'
 import FooterDark from './components/darkFooter/footerDark'
 import Progress from './components/Progress/progress'
-import Accordion from './components/accordion/Accordion'
 import FirstPage from "./components/Form/FirstPage.jsx";
 import Form from "./components/Form/Form.jsx";
 import Shadow from "./components/BoxShadow/Shadow.jsx";

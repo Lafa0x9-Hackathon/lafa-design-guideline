@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './accordion.scss'
-import illustration from '../../assets/image/illustration-a.png'
+// import illustration from '../../assets/image/illustration-a.png'Z
+import illustration from '../../components/assets/image/illustration-a.png'
 import AccordionContent from '../../components/accordion/AccordionContent';
 function Accordion() {
 
