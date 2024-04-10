@@ -1,5 +1,5 @@
-import Grant from '../../components/card/grant/Grant'
-import Hackathon from '../../components/card/hackathon/Hackathon'
+import Grant from '../../components/card/Grant/Grant'
+import Hackathon from '../../components/card/Hackathon/Hackathon'
 import MatchingRound from '../../components/card/matchingRound/MatchingRound'
 import './card.scss'
 function Card() {
