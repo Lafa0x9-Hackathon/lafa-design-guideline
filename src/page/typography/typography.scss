@@ -1,0 +1,164 @@
+.typography {
+    width: 100%;
+    height: max-content;
+    position: relative;
+
+    >.libre-franklin {
+        width: 100%;
+        height: 100vh;
+        padding: 120px 135px;
+        font-family: Libre Franklin;
+        scroll-snap-align: start;
+        color: #0E0333;
+
+        >div {
+            margin-bottom: 30px;
+        }
+
+
+    }
+
+
+    >.miriam-libre {
+        width: 100%;
+        height: 100vh;
+        padding: 120px 135px;
+        font-family: Miriam Libre;
+        scroll-snap-align: start;
+        color: #0E0333;
+
+        >div {
+            margin-bottom: 30px;
+        }
+
+    }
+
+    >.example {
+        width: 100%;
+        height: 100vh;
+        scroll-snap-align: start;
+        padding: 79px 135px;
+        font-family: Libre Franklin;
+
+        >.row {
+            display: flex;
+
+            >* {
+                margin: 0 2rem 2.5rem 0;
+                height: max-content;
+            }
+
+            >div:nth-child(1) {
+                width: 1100px;
+                margin-right: 5.3rem;
+                line-height: 150%;
+            }
+
+            >div:nth-child(2) {
+                width: 120px;
+            }
+
+            >div:nth-child(3) {
+                width: 120px;
+            }
+
+            >div:nth-child(4) {
+                width: 160px;
+            }
+        }
+
+        >.heading {
+            >* {
+                font-size: 16px !important;
+                font-weight: 700;
+                font-family: Miriam Libre;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .dark {
+        background-color: #0E0333;
+        color: white;
+
+    }
+
+    .regular {
+        font-family: 400;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+    .semi-bold {
+        font-weight: 600;
+    }
+
+    .f-64 {
+        font-size: 64px;
+    }
+
+    .f-56 {
+        font-size: 56px;
+    }
+
+    .f-48 {
+        font-size: 48px;
+    }
+
+    .f-32 {
+        font-size: 32px;
+    }
+
+    .f-28 {
+        font-size: 28px;
+    }
+
+    .f-24 {
+        font-size: 24px;
+    }
+
+    .f-20 {
+        font-size: 20px;
+    }
+
+    .f-16 {
+        font-size: 16px;
+    }
+
+    .f-14 {
+        font-size: 14px;
+    }
+
+    .f-12 {
+        font-size: 12px;
+    }
+
+    @media only screen and (max-width: 1360px) {
+        >.example {
+            padding: 79px 80px;
+        }
+    }
+
+    @media only screen and (max-width: 1280px) {
+        >.example {
+            padding: 79px 40px;
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        >.example {
+            padding: 79px 10px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        >.example {
+            padding: 79px 10px;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {}
+
+}

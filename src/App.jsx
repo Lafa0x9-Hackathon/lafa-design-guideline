@@ -1,3 +1,8 @@
+
+import Accordion from "./page/accordion/Accordion"
+import Typography from "./page/typography/Typography"
+import './app.scss'
+import Card from "./page/card/Card"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Alerts from './components/Alerts/alerts'
@@ -10,7 +15,6 @@ import Navbar from './components/DesktopNav/navbar'
 import FooterFunctionLight from './components/footer/footerLight'
 import FooterDark from './components/darkFooter/footerDark'
 import Progress from './components/Progress/progress'
-import Accordion from './components/accordion/Accordion'
 import FirstPage from "./components/Form/FirstPage.jsx";
 import Form from "./components/Form/Form.jsx";
 import Shadow from "./components/BoxShadow/Shadow.jsx";
@@ -29,6 +33,16 @@ const router = createBrowserRouter([
   {
     path: "/form",
     element: <Form />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: "/card",
+    element: <Card />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: "/Typography",
+    element: <Typography />,
     errorElement: <div>404 Not Found</div>
   },
   {

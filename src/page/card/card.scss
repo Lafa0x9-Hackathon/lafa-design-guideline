@@ -1,0 +1,264 @@
+.card {
+    width: 100vw;
+    height: max-content;
+    font-family: Libre Franklin;
+
+    >.grant {
+        padding: 1rem;
+        scroll-snap-align: start;
+        height: 100vh;
+        width: 100vw;
+
+        >.grant-item {
+            height: max-content;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #E2E0E7;
+            box-shadow: 0px 0px 10px -1px lightgray;
+
+            >.grant-img {
+                >img {
+                    width: 100%;
+                    background-size: cover;
+                }
+            }
+
+            >.grant-container {
+                padding: 25px 20px;
+
+                >.heading {
+                    >.head {
+
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+
+                    span {
+                        color: #6a00ff;
+                    }
+                }
+
+                >.div-button {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 2rem;
+
+                    >button {
+                        border: 1px solid #6F3FF5;
+                        border-radius: 5px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: transform 0.5s ease-in-out;
+
+                        }
+                    }
+
+                    >button:nth-child(2) {
+                        width: calc(100% - 48px);
+                        background-color: #6F3FF5;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        >.bankless {
+            width: 320px;
+            color: #757087;
+
+            >.grant-img {
+                >img {
+                    height: 220px;
+
+                }
+            }
+
+            >.grant-container {
+
+                >.heading {
+                    >.head {
+                        >img {
+                            display: inline;
+                            width: 18px;
+                            height: 18px;
+                            margin-left: 10px;
+                            padding-bottom: 2px;
+                        }
+                    }
+                }
+
+                >p {
+                    padding: 22px 0;
+                    font-size: 16px;
+                }
+
+                >.grant-price {
+                    padding: 22px 0;
+
+                    >span {
+                        color: #000000;
+                        display: block;
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+
+    >.hackathon {
+        width: 100vw;
+        height: 100vh;
+        padding: 1rem;
+        scroll-snap-align: start;
+
+        >.polkadot {
+            border: 1px solid #E2E0E7;
+            box-shadow: 0px 0px 10px -1px lightgray;
+            font-size: 14px;
+            font-weight: 400;
+            color: #757087;
+            line-height: 24.5px;
+            border-radius: 5px;
+
+            >.content {
+                padding: 1.5rem 1rem;
+
+                >.heading {
+                    color: black;
+                    font-size: 12px;
+
+                    >h6 {
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+
+                    >span {
+                        font-weight: 600;
+                    }
+                }
+
+                >p {
+                    margin: 1rem 0;
+                }
+
+                >.div-sponser {
+                    display: flex;
+
+                    >img {
+                        margin-left: 0.3rem;
+                    }
+                }
+
+                >.div-buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 1.5rem;
+
+                    >button {
+                        width: 32%;
+                        padding: 0.5rem 1rem;
+                        border-radius: 4px;
+                        color: #6F3FF5;
+                        background-color: white;
+                        border: 1px solid #6F3FF5;
+
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: transform 0.2s ease-in-out;
+                        }
+                    }
+
+                    >button:nth-child(1) {
+                        background-color: #6F3FF5;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        >.horizontal-polkadot {
+            width: 640px;
+            height: 295px;
+            display: flex;
+
+            >.img-container {
+                width: 700px;
+
+                >img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5px 0 0 5px;
+                }
+            }
+
+        }
+
+        >.vertical-polkadot {
+            width: 340px;
+            height: 620px;
+            display: flex;
+            flex-direction: column;
+
+            >.img-container {
+                width: 100%;
+
+                >img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5px 5px 0 0;
+                }
+            }
+
+        }
+    }
+
+    >.matching-round {
+        height: 100vh;
+        width: 100%;
+        scroll-snap-align: start;
+        padding: 1rem;
+
+        >.matic {
+            color: #757087;
+
+            >.image-container {
+                >img {
+                    background-size: cover;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            >.content {
+                >h5 {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+
+                >p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin: 1rem 0;
+                }
+            }
+        }
+
+        >.matic-large {
+            width: 1120px;
+            height: 548px;
+
+            >.image-container {
+                width: 100%;
+                height: 373.33px;
+            }
+        }
+
+
+    }
+
+
+}
