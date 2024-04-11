@@ -1,6 +1,6 @@
-import Rectangle36 from '../../assets/image/Rectangle 36.png'
-import iconInfo from '../../assets/image/icon-info.png';
-import image65 from '../../assets/image/image 65.png'
+import Rectangle36 from '../../../assets/image/Rectangle 36.png'
+import iconInfo from '../../../assets/image/icon-info.png';
+import image65 from '../../../assets/image/image 65.png'
 function GrantBankless() {
     return (
         <div className="grant-item bankless me-5" >
@@ -13,7 +13,7 @@ function GrantBankless() {
                         Bankless
                         <img src={image65} alt="bankless" />
                     </div>
-                    by <span>ryanseanadams</span>
+                    by < span>ryanseanadams</span>
                 </div>
                 <p>
                     Bankless is on a mission to onboard millions of people into living their financial lives on Ethereum living their
