@@ -1,0 +1,201 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+input::placeholder {
+    font-size: 13px;
+}
+
+textarea::placeholder {
+    font-size: 13px;
+}
+
+
+input:focus {
+    outline: 2px solid rgb(141, 62, 232);
+    /* outline-offset: -2px; */
+}
+
+textarea:focus {
+    outline: 2px solid rgb(141, 62, 232);
+}
+
+select:focus {
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: "MiriamLibre-Bold";
+
+}
+
+#main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: 2px solid green; */
+}
+
+#sub-body1 {
+    /* border: 2px solid red; */
+    width: 93%;
+    font-size: 40px;
+    margin-top: 50px;
+
+
+}
+
+.commonlabel {
+    font-family: "MiriamLibre-Bold";
+    font-size: 18px;
+
+}
+
+#sub-body2 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20px;
+    font-family: 'Libre-Franklin';
+    font-size: 20px;
+    line-height: 28px;
+    /* border: 2px solid blue; */
+}
+
+#textarea {
+    border-radius: 8px;
+    border: 2px solid rgb(182, 180, 180);
+    padding: 8px;
+    width: 40%;
+}
+
+.commonbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 16px; */
+    padding: 14px;
+    /* border: 1px solid orange; */
+
+}
+
+.commoncontainer {
+    /* border: 2px solid green; */
+    width: 80%;
+}
+
+.field {
+    border: 2px solid rgb(182, 181, 181);
+    width: 40%;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.headertext {
+    padding-top: 8px;
+}
+
+.captiontext {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px;
+    color: rgb(125, 122, 122);
+}
+
+#options {
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    font-size: 15px;
+    width: 40%;
+    border: 2px solid rgb(182, 181, 181);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+select option[value="A1"] {
+    display: none;
+}
+
+.radiobutton {
+    width: 18px;
+    accent-color: rgb(141, 62, 232);
+    padding: 10px;
+    cursor: pointer;
+    height: 20px;
+}
+
+
+
+.checkboxbutton {
+    width: 18px;
+    cursor: pointer;
+    accent-color: rgb(141, 62, 232);
+    height: 20px;
+}
+
+.chains {
+    padding: 12px;
+    border: 1.5px solid rgb(219, 217, 217);
+    border-radius: 8px;
+    display: flex;
+
+    align-items: center;
+    margin: 6px;
+}
+
+.onecolumn {
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+#slide {
+    width: 20%;
+    height: 2px;
+    background-color: purple;
+
+    outline: none;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+#slider::-webkit-slider-thumb {
+    /* -webkit-appearance: none; */
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#custom-btn {
+    border: 1.5px solid rgb(168, 167, 167);
+    width: 10%;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+#custom-btn:hover {
+    background-color: purple;
+    color: white;
+    transition: 0.1s;
+    scale: 1.01;
+}
+
+#custom-txt {
+    /* border: 2px solid green; */
+    width: 25%;
+    margin-left: 5px;
+
+}

@@ -10,7 +10,14 @@ export default {
         "violet-400": "#6F3FF5",
         "gray-200": "#C4C1CF",
       },
+      placeholderFontSize: {
+        sm: "0.875rem;",
+      },
     },
   },
   plugins: [],
 };
+
+
+
+
