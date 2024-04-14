@@ -1,9 +1,9 @@
-
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Tab from "./page/tabs/tabs";
 import Accordion from "./page/accordion/Accordion"
 import Typography from "./page/typography/Typography"
 import './app.scss'
 import Card from "./page/card/Card"
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Alerts from './components/Alerts/alerts'
 import Grant from './components/grant/grant'
@@ -28,6 +28,11 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <FirstPage />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: "/tabs",
+    element: <Tab />,
     errorElement: <div>404 Not Found</div>
   },
   {
