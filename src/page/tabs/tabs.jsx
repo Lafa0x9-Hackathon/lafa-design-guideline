@@ -1,5 +1,9 @@
-
-import { Tabs, TabsContent, TabsTrigger, TabsList } from "../../components/Tabs/Tabs";
+import {
+  Tabs,
+  TabsContent,
+  TabsTrigger,
+  TabsList,
+} from "../../components/Tabs/index.js";
 
 const Tab = () => {
   return (

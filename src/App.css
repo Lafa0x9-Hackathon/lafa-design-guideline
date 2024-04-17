@@ -8,3 +8,7 @@
     url('/src/Fonts/MiriamLibre-Bold.ttf') format("truetype");
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
