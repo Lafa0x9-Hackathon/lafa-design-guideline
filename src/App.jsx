@@ -22,6 +22,7 @@ import Breadcrumb from "./components/Breadcrumb/Breadcrumb.jsx";
 import Page1 from "./components/Breadcrumb/Page1.jsx";
 import Page2 from "./components/Breadcrumb/Page2.jsx";
 import Page3 from "./components/Breadcrumb/Page3.jsx";
+import ButtonPage from './page/button/ButtonPage.jsx';
 
 
 const router = createBrowserRouter([
@@ -129,6 +130,10 @@ const router = createBrowserRouter([
   {
     path: '/accordion',
     element: <Accordion/>
+  },
+  {
+    path: "/buttons",
+    element: <ButtonPage />
   }
 ])
 
