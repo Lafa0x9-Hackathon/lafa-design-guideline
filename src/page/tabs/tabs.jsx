@@ -1,5 +1,5 @@
 
-import { Tabs, TabsContent, TabsTrigger, TabsList } from "../../components/Tabs/Tabs";
+import { Tabs, TabsContent, TabsTrigger, TabsList } from "./../../components/Tabs"
 
 const Tab = () => {
   return (
